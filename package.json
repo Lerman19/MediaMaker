@@ -1,0 +1,28 @@
+{
+  "name": "mediamaker",
+  "version": "1.0.0",
+  "description": "MediaMaker - платформа для создания и публикации контента",
+  "private": true,
+  "workspaces": [
+    "server"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=server",
+    "start": "npm run start --workspace=server",
+    "server": "npm run dev --workspace=server",
+    "install:all": "npm install",
+    "clean": "rm -rf node_modules server/node_modules"
+  },
+  "keywords": [
+    "telegram-bot",
+    "express",
+    "sqlite",
+    "ai",
+    "content-generator"
+  ],
+  "author": "Ler Bagdasaryan",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
