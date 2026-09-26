@@ -1,0 +1,22 @@
+{
+  "name": "bagler-news-editor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Private editorial Telegram bot for BAGLER NEWS",
+  "main": "bagler.js",
+  "engines": {
+    "node": ">=24.0.0 <25"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "axios": "1.20.0",
+    "dotenv": "16.6.1",
+    "form-data": "4.0.5",
+    "node-cron": "4.2.1",
+    "node-telegram-bot-api": "1.2.0",
+    "sharp": "0.34.5",
+    "uuid": "11.1.1"
+  }
+}
